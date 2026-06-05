@@ -21,6 +21,16 @@ DAM-WEBMOBILE1
 src/
 ├── assets/
 ├── components/
+│   ├── Footer/
+│   │   └── index.jsx
+│   ├── Input/
+│   │   └── index.jsx
+│   └── Navbar/
+│       ├── index.jsx
+│       └── NavBar.module.css
+├── context/
+│   └── ClienteContext.jsx
+├── pages/
 │   ├── BuscarUsuario/
 │   │   ├── DadosdoUsuario.jsx
 │   │   └── index.jsx
@@ -30,20 +40,11 @@ src/
 │   │   └── mockedcolores
 │   ├── FiltroDeCarros/
 │   │   └── index.jsx
-│   ├── Footer/
-│   │   └── index.jsx
 │   ├── FormClientes/
 │   │   ├── Alert.jsx
 │   │   └── index.jsx
-│   ├── Input/
-│   │   └── index.jsx
-│   ├── ListaClientes/
-│   │   └── index.jsx
-│   └── Navbar/
-│       ├── index.jsx
-│       └── NavBar.module.css
-├── context/
-│   └── ClienteContext.jsx
+│   └── ListaClientes/
+│       └── index.jsx
 ├── services/
 │   └── api.jsx
 ├── App.jsx
