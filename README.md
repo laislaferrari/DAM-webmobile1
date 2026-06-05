@@ -1,16 +1,72 @@
-# React + Vite
+# Grupo 1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **Serratec Residência de Software · Sala 34 · Trabalho avaliativo · disciplina de Desenvolvimento de Aplicações Multiplataforma**
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Integrantes
 
-## React Compiler
+- ANA PAULA PIMENTA
+- DIANA MONTEIRO
+- LAÍS FERRARI
+- LEONAM NOGUEIRA MACHADO
+- THIAGO SINESIO
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Estrutura do Repositório
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+DAM-WEBMOBILE1
+src/
+├── assets/
+├── components/
+│   ├── BuscarUsuario/
+│   │   ├── DadosdoUsuario.jsx
+│   │   └── index.jsx
+│   ├── Cores/
+│   │   ├── Cores.module.css
+│   │   ├── index.jsx
+│   │   └── mockedcolores
+│   ├── FiltroDeCarros/
+│   │   └── index.jsx
+│   ├── Footer/
+│   │   └── index.jsx
+│   ├── FormClientes/
+│   │   ├── Alert.jsx
+│   │   └── index.jsx
+│   ├── Input/
+│   │   └── index.jsx
+│   ├── ListaClientes/
+│   │   └── index.jsx
+│   └── Navbar/
+│       ├── index.jsx
+│       └── NavBar.module.css
+├── context/
+│   └── ClienteContext.jsx
+├── services/
+│   └── api.jsx
+├── App.jsx
+├── main.jsx
+└── routesConfig.jsx
+```
+
+---
+
+## URL para clonar o repositório
+
+```bash
+git clone https://github.com/laislaferrari/DAM-webmobile1.git
+```
+
+## Bibliotecas
+
+- [Bootstrap](https://www.postgresql.org/) — Biblioteca de componentes
+- [React Router](https://reactrouter.com/) — Gerencia a navegação e as rotas em aplicações React.
+- [Axios](https://www.axios.com/) — Biblioteca para criação de requisições HTTP.
+
+---
+
+<p align="center">
+  <strong>Grupo 1 — Serratec Residência · Sala 34</strong>
+</p>
