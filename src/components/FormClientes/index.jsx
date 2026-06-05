@@ -1,7 +1,7 @@
 import { useState, useContext } from "react";
 import { createCliente } from "../../services/api";
 import { ClienteContext } from "../../context/ClienteContext";
-import Input from "./Input";
+import Input from "../Input";
 import Alert from "./Alert";
 
 export default function FormClientes() {
