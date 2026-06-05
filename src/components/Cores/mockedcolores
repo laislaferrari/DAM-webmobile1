@@ -1,0 +1,18 @@
+export const cores = [
+  {
+    name: "vermelho",
+    hex: "#F54927",
+  },
+  {
+    name: "verde",
+    hex: "#42F527",
+  },
+  {
+    name: "amarelo",
+    hex: "#F5F227",
+  },
+  {
+    name: "azul",
+    hex: "#2750F5",
+  },
+];

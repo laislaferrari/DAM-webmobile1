@@ -1,0 +1,12 @@
+.linkNormal {
+  color: white !important;
+  font-weight: bold !important;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.linkAtivo {
+  color: blue !important;
+  font-weight: bold !important;
+}
