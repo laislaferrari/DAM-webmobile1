@@ -1,8 +1,8 @@
-import FormClientes from "./components/FormClientes";
-import BuscarUsuario from "./components/BuscarUsuario";
-import ListaClientes from "./components/ListaClientes";
-import FiltroDeCarros from "./components/FiltroDeCarros";
-import Cores from "./components/Cores";
+import FormClientes from "./pages/FormClientes";
+import BuscarUsuario from "./pages/BuscarUsuario";
+import ListaClientes from "./pages/ListaClientes";
+import FiltroDeCarros from "./pages/FiltroDeCarros";
+import Cores from "./pages/Cores";
 
 export const rotasDaAplicacao = [
   { path: "/", label: "Formulário de Clientes", element: <FormClientes /> },

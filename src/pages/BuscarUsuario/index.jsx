@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { getClienteById } from "../../services/api";
 import DadosdoUsuario from "./DadosdoUsuario";
-import Input from "../Input";
+import Input from "../../components/Input";
 
 export default function BuscarUsuario() {
   const [id, setId] = useState("");

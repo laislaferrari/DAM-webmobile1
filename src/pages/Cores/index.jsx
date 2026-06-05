@@ -6,7 +6,7 @@ export default function Cores() {
   const [indiceCor, setIndiceCor] = useState(-1);
 
   const corAtual =
-    indiceCor === -1 ? { name: "Padrão", hex: "#FFFFFF" } : cores[indiceCor];
+    indiceCor === -1 ? { name: "Branco", hex: "#FFFFFF" } : cores[indiceCor];
 
   useEffect(() => {
     document.body.style.backgroundColor = corAtual.hex;

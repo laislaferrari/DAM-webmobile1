@@ -1,8 +1,8 @@
 import { useState, useContext } from "react";
 import { createCliente } from "../../services/api";
 import { ClienteContext } from "../../context/ClienteContext";
-import Input from "../Input";
 import Alert from "./Alert";
+import Input from "../../components/Input";
 
 export default function FormClientes() {
   const [nome, setNome] = useState("");
