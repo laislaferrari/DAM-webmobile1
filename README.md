@@ -16,7 +16,7 @@
 
 ## Estrutura do Repositório
 
-```
+````
 DAM-WEBMOBILE1
 src/
 ├── assets/
@@ -45,12 +45,13 @@ src/
 │   │   └── index.jsx
 │   └── ListaClientes/
 │       └── index.jsx
+├── routes/
+│   ├── AppRouter.jsx
+│   └── routesConfig.jsx
 ├── services/
 │   └── api.jsx
 ├── App.jsx
-├── main.jsx
-└── routesConfig.jsx
-```
+└── main.jsx```
 
 ---
 
@@ -58,7 +59,7 @@ src/
 
 ```bash
 git clone https://github.com/laislaferrari/DAM-webmobile1.git
-```
+````
 
 ## Bibliotecas
 
