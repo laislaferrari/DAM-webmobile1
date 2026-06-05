@@ -1,12 +1,13 @@
 .cores {
-  background-color: var(--cor-fundo);
+  background-color: white;
+  border: 1px solid var(--cor-fundo);
 
   max-width: fit-content;
   padding: 3rem;
   margin: 0 auto;
   border-radius: 0.5rem;
-  color: white;
+  color: black;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 
-  transition: background-color 0.4s ease;
+  transition: border-color 0.4s ease, background-color 0.4s ease;
 }

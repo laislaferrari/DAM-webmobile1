@@ -26,11 +26,11 @@ export default function Cores() {
       <div className={style.cores} style={{ "--cor-fundo": corAtual.hex }}>
         <h2>Cor: {corAtual.name}</h2>
         <h3>HEX: {corAtual.hex}</h3>
-      </div>
 
-      <button className="btn btn-primary mt-4 px-4 py-2" onClick={mudarCor}>
-        Mudar Cor de Fundo
-      </button>
+        <button className="btn btn-primary mt-4 px-4 py-2" onClick={mudarCor}>
+          Mudar Cor de Fundo
+        </button>
+      </div>
     </div>
   );
 }
