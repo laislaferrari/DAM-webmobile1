@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { getClienteById } from "../../services/api";
 import DadosdoUsuario from "./DadosdoUsuario";
-import Input from "../Input/Index";
+import Input from "../Input";
 
 export default function BuscarUsuario() {
   const [id, setId] = useState("");
@@ -22,7 +22,7 @@ export default function BuscarUsuario() {
   return (
     <div className="container min-vh-100">
       <h2 className="py-4">Listar Usuário por Id</h2>
-      <form onSubmit={handleSubmit} className="form">      
+      <form onSubmit={handleSubmit} className="form">
         <Input
           value={id}
           label={"ID do Usuário:"}
