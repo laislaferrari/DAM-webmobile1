@@ -18,7 +18,9 @@ export default function FiltroDeCarros() {
   );
 
   return (
-    <div className="container">
+
+    
+    <div className="container min-vh-100">
       <h2 className="py-4">Lista de Carros</h2>
       <div className="py-3">
         <label htmlFor="filtroMarca" className="form-label fw-bold">

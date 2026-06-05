@@ -40,7 +40,7 @@ export default function FormClientes() {
   };
 
   return (
-    <div className="container ">
+    <div className="container min-vh-100">
       <h2 className="py-4">Cadastro de Clientes</h2>
       <form onSubmit={handleSubmit} className="form">
         <Input

@@ -22,7 +22,7 @@ export default function Cores() {
   };
 
   return (
-    <div className="container pt-5 text-center">
+    <div className="container pt-5 text-center min-vh-100">
       <div className={style.cores} style={{ "--cor-fundo": corAtual.hex }}>
         <h2>Cor: {corAtual.name}</h2>
         <h3>HEX: {corAtual.hex}</h3>
