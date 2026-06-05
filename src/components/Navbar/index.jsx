@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { rotasDaAplicacao } from "../../routesConfig";
+import { rotasDaAplicacao } from "../../routes/routesConfig";
 import style from "./NavBar.module.css";
 
 export default function Navbar() {
@@ -9,8 +9,19 @@ export default function Navbar() {
         <NavLink className="navbar-brand" to="/">
           Menu de Exercícios
         </NavLink>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menuNavegacao"
+          aria-controls="menuNavegacao"
+          aria-expanded="false"
+          aria-label="Alternar navegação"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
 
-        <div className="collapse navbar-collapse">
+        <div className="collapse navbar-collapse" id="menuNavegacao">
           <ul className="navbar-nav ms-auto">
             {rotasDaAplicacao.map((rota, index) => (
               <li className="nav-item" key={index}>
